@@ -1,0 +1,54 @@
+/* ----------------------
+Style Sheet for NAVE LABS
+version: 1.0
+author: Lucas Soares
+-----------------------*/
+/* corpo*/
+
+html,body{
+	text-transform: uppercase;
+	height: 100%;
+}
+
+body{
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar-default{
+	border: none;
+}
+
+.projetos-principais{
+	background-color: #FAFAFA;
+	padding: 10px;
+}
+
+.projetos-principais h2{
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+.sobre-nos{
+	padding: 10px;
+}
+
+.icones-projetos{
+	width: 50%;
+	height: 50%;
+	margin-bottom: 20px;
+}
+
+
+
+/* tipografia*/
+
+#nav-principal a{
+	text-transform: uppercase;
+}
+
+
+
+/* #nav-principal a:hover{
+	color: orange;
+} */
+
