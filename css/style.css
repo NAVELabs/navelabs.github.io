@@ -6,7 +6,7 @@ author: Lucas Soares
 /* corpo*/
 
 html,body{
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	height: 100%;
 }
 
@@ -30,6 +30,7 @@ body{
 
 .sobre-nos{
 	padding: 10px;
+	margin-top: 20px;	
 }
 
 .icones-projetos{
@@ -39,11 +40,36 @@ body{
 }
 
 
+.equipe-thumb a:hover{
+	text-decoration: none;
+}
 
-/* tipografia*/
+.equipe-thumb p{
+	padding: 0;
+	margin: 0;
+}
 
+
+#email{
+	font-size: 10px;
+}
 #nav-principal a{
 	text-transform: uppercase;
+}
+
+.modal-body{
+	font-size: 14px;
+	color: #757575;
+}
+
+#myModal{
+	margin-top: 150px;
+}
+
+footer{
+	background-color:  #FAFAFA;
+	padding: 20px;
+	margin-top: 20px;
 }
 
 
