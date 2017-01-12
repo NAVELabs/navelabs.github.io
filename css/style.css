@@ -3,10 +3,8 @@ Style Sheet for NAVE LABS
 version: 1.0
 author: Lucas Soares
 -----------------------*/
-/* corpo*/
 
 html,body{
-	/* text-transform: uppercase; */
 	height: 100%;
 }
 
@@ -16,6 +14,7 @@ body{
 
 .navbar-default{
 	border: none;
+	background-color: transparent;
 }
 
 .projetos-principais{
@@ -23,6 +22,15 @@ body{
 	padding: 10px;
 	color: white;
 	margin-top: 30px;
+}
+
+.projetos-principais a{
+	color: white;
+}
+
+.projetos-principais a:hover{
+	font-weight: bold;
+	text-decoration: none;
 }
 
 .projetos-principais h2{
@@ -51,7 +59,6 @@ body{
 	margin: 0;
 }
 
-
 #email{
 	font-size: 12px;
 }
@@ -65,19 +72,33 @@ body{
 	color: #757575;
 }
 
-#myModal{
+.modal-footer{
+	color: #757575;
+}
+
+#myModal, #antoanne-modal, #zeca-modal, #luca-modal, #scora-modal{
 	margin-top: 150px;
+}
+
+.icones-sociais{
+	max-width: 10%; 
+	margin-left: 5px;
+}
+
+.modal-icones{
+	max-width: 4%;
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	color: white;
 }
 
 footer{
 	background-color:  #1b868f;
 	padding: 20px;
-	margin-top: 20px;
+	color: white;
 }
-
-
-
-/* #nav-principal a:hover{
-	color: orange;
-} */
-
