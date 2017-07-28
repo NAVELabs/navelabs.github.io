@@ -8,6 +8,10 @@ html,body,.capa{
 	height: 100%;
 }
 
+h2, h4{
+	font-weight: bold;
+}
+
 body{
 	font-family: Helvetica, Arial, sans-serif;
 }
@@ -74,6 +78,10 @@ body{
 	margin-bottom: 20px;
 }
 
+.icones-projetos:hover{
+	border: 4px solid white;
+}
+
 .equipe-thumb a:hover{
 	text-decoration: none;
 }
@@ -117,7 +125,6 @@ body{
 .icones-sociais{
 	max-width: 10%; 
 	margin-left: 5px;
-	margin-bottom: 20px;
 }
 
 .modal-icones{
